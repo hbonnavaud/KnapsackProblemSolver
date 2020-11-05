@@ -15,14 +15,14 @@ public class Problem {
      */
 
     private String name;
-    private int W;  // Capacité du problème
-    private int N;  // Nombre d'objets
+    private int bagCapacity;  // Capacité du problème
+    private int itemsSize;  // Nombre d'objets
     private List<Item> items = new ArrayList<Item>();
 
     public Problem(String name, int W) {
         this.name = name;
-        this.W = W;
-        this.N = 0;
+        this.bagCapacity = W;
+        this.itemsSize = 0;
     }
 
     public Item getItem(int i){
@@ -31,7 +31,7 @@ public class Problem {
 
     public void add(Item newObject) {
         this.items.add(newObject);
-        this.N += 1;
+        this.itemsSize += 1;
     }
 
     /**
@@ -41,19 +41,17 @@ public class Problem {
         return name;
     }
 
-    public int getW() {
-        return W;
+    public int getBagCapacity() {
+        return bagCapacity;
     }
 
-    public int getN() {
-        return N;
+    public int getItemsSize() {
+        return itemsSize;
     }
 
     public List<Item> getItems() {
         return items;
     }
-
-
 
     /**
      * SETTERS
@@ -62,12 +60,12 @@ public class Problem {
         this.name = name;
     }
 
-    public void setW(int w) {
-        W = w;
+    public void setBagCapacity(int bagCapacity) {
+        this.bagCapacity = bagCapacity;
     }
 
-    public void setN(int n) {
-        N = n;
+    public void setItemsSize(int itemsSize) {
+        this.itemsSize = itemsSize;
     }
 
     public void setItems(List<Item> items) {
