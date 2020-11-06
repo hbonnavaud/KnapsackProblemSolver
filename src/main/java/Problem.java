@@ -34,9 +34,36 @@ public class Problem {
         this.itemsSize += 1;
     }
 
+    @Override
+    public String toString() {
+        String result = "[Problem " + this.name + "] N=" + this.itemsSize + ", W=" + this.bagCapacity + ", objects: [";
+        boolean first_object = false;
+        for (Item item : this.items) {
+            if (!first_object) first_object = true;
+            else result += ", ";
+            result += "{ W=" + item.getWeight() + ", V=" + item.getValue() + " }";
+        }
+        result += "]";
+        return result;
+    }
+
     /**
      * GETTERS
      */
+
+    /**
+     * getTotalValueUpperBound nous donne la borne supérieure pour la somme des valeures des objets pris. Elle est
+     * utilisée pour la déclaration de cette variable, variable étant indispenssable pour définit l'objectif à maximiser.
+     * @return items's value sum.
+     */
+    public int getTotalValueUpperBound() {
+        int sum = 0;
+        for (Item item : this.items) {
+            sum += item.getValue();
+        }
+        return sum;
+    }
+
     public String getName() {
         return name;
     }

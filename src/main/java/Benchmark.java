@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Benchmark {
-    public static ArrayList<Problem> problems = new ArrayList<Problem>();
+    private ArrayList<Problem> problems = new ArrayList<Problem>();
 
     public Benchmark() {
         Problem problem1 = new Problem("Problem 1", 100);
@@ -20,4 +20,17 @@ public class Benchmark {
         problems.add(problem1);
     }
 
+    /**
+     * GETTERS
+     */
+    public ArrayList<Problem> getProblems() {
+        return problems;
+    }
+
+    /**
+     * SETTERS
+     */
+    public void setProblems(ArrayList<Problem> problems) {
+        this.problems = problems;
+    }
 }
