@@ -48,6 +48,18 @@ public class Problem {
     }
 
     /**
+     * Add every items in the list
+     * @param itemsList: list of [value, weight] to add
+     */
+    public void addItems(int[][] itemsList) {
+        int id = this.getItemsSize();
+        for (int i = 0; i < itemsList.length; i ++) {
+            this.add(new Item(id, itemsList[i][0], itemsList[i][1]));
+            id ++;
+        }
+    }
+
+    /**
      * GETTERS
      */
 
