@@ -3,10 +3,13 @@ public class Item {
     private int value;
     private int weight;
 
+    private int ratio;
+
     public Item(int id, int value, int weight) {
         this.id = id;
         this.value = value;
         this.weight = weight;
+        this.ratio = value/weight;
     }
 
     @Override
@@ -28,5 +31,9 @@ public class Item {
 
     public int getWeight() {
         return weight;
+    }
+
+    public int getRatio() {
+        return ratio;
     }
 }

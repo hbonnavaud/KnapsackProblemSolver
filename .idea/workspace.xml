@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fce5363a-053f-44ab-96da-0e08fbf563bd" name="Default Changelist" comment="Up">
+      <change beforePath="$PROJECT_DIR$/BackPackProblemChoco.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1j8u4hduD740qJi1me34zhclUDI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="BackPackProblemChoco" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fce5363a-053f-44ab-96da-0e08fbf563bd" name="Default Changelist" comment="" />
+      <created>1603197852322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603197852322</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Up">
+      <created>1604509073719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604509073719</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Up" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="479" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1603197859004">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="479" y="131" width="1024" height="852" key="#Project_Structure/72.27.1848.1053@72.27.1848.1053" timestamp="1603197859004" />
+    <state x="454" y="211" width="1084" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604508911526">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="454" y="211" width="1084" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1604508911526" />
+    <state x="728" y="371" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603201778586">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="728" y="371" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1603201778586" />
+    <state x="699" y="223" width="583" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1604157174245">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="699" y="223" width="583" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1604157174245" />
+    <state x="1096" y="127" width="714" height="853" key="DiffContextDialog" timestamp="1604830240172">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1096" y="127" width="714" height="853" key="DiffContextDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1604830240172" />
+    <state x="618" y="300" width="735" height="520" key="FileChooserDialogImpl" timestamp="1604831829958">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="618" y="300" width="735" height="520" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1604831829958" />
+    <state width="1802" height="318" key="GridCell.Tab.0.bottom" timestamp="1604509287426">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="318" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1604509287426" />
+    <state width="1802" height="318" key="GridCell.Tab.0.center" timestamp="1604509287426">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="318" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1604509287426" />
+    <state width="1802" height="318" key="GridCell.Tab.0.left" timestamp="1604509287426">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="318" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1604509287426" />
+    <state width="1802" height="318" key="GridCell.Tab.0.right" timestamp="1604509287426">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="318" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1604509287426" />
+    <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1603202628504">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1603202628504" />
+    <state width="1802" height="340" key="GridCell.Tab.1.center" timestamp="1603202628504">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1603202628504" />
+    <state width="1802" height="340" key="GridCell.Tab.1.left" timestamp="1603202628504">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1603202628504" />
+    <state width="1802" height="340" key="GridCell.Tab.1.right" timestamp="1603202628504">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1603202628504" />
+    <state x="529" y="211" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1604157656677">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="529" y="211" width="924" height="691" key="Maven.ArtifactSearchDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1604157656677" />
+    <state x="733" y="325" width="819" height="514" key="NewModule_or_Project.wizard" timestamp="1604831834827">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="733" y="325" width="819" height="514" key="NewModule_or_Project.wizard/72.27.1848.1053@72.27.1848.1053" timestamp="1604831834827" />
+    <state x="636" y="153" width="1024" height="852" key="SettingsEditor" timestamp="1604831839262">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="636" y="153" width="1024" height="852" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1604831839262" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604509076527">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1604509076527" />
+    <state x="777" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604831636820">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="777" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053@72.27.1848.1053" timestamp="1604831636820" />
+    <state x="457" y="181" width="1372" height="803" key="new project wizard" timestamp="1604157074515">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="457" y="181" width="1372" height="803" key="new project wizard/72.27.1848.1053@72.27.1848.1053" timestamp="1604157074515" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1604506839699">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1604506839699" />
+  </component>
+</project>
