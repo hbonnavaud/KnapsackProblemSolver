@@ -69,7 +69,7 @@ public class BackPackSolver {
      * To add new heuristics or change the research algorithm, this is the function you should edit.
      * For more information -> https://choco-solver.org/docs/advanced-usages/strategies/
      */
-    void setSearch() {
+    public void setSearch() {
         //  Résolution du problème
         solver.setSearch(
                 intVarSearch(
@@ -134,6 +134,7 @@ public class BackPackSolver {
      * @return String: resolution output as a string, but null if resolution pipeline isn't done.
      */
     public String getStringResult(boolean printSolution, boolean printSolvingDuration) {
+        /* Old fancy version
         String result = "{\n\t'Problem name': " + this.problem.getName() + ",";
         if (printSolution) {
             result += "\n\t'Solution': " + this.vars.toString() + ",";
@@ -142,6 +143,9 @@ public class BackPackSolver {
             result += "\n\t'Resolution duration': " + this.resolutionTime + ",";
         }
         return result + "\n},";
+         */
+        // Efficient version
+        return this.problem.getName() + " solved in " + this.resolutionTime;
     }
 
     /**

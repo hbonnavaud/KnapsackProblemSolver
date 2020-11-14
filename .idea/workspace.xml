@@ -23,7 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce5363a-053f-44ab-96da-0e08fbf563bd" name="Default Changelist" comment="Up">
-      <change beforePath="$PROJECT_DIR$/BackPackProblemChoco.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Objects/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Objects/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solvers/BackPackSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solvers/BackPackSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solvers/RatioHeuristicSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solvers/RatioHeuristicSolver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +52,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -62,15 +68,31 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="main" />
+      <option name="ALTERNATIVE_JRE_PATH" value="13" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="src.main" />
       <module name="BackPackProblemChoco" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,17 +144,24 @@
     <option name="LAST_COMMIT_MESSAGE" value="Up" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1603197859004">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="352" y="85" width="1024" height="852" key="#Project_Structure" timestamp="1605372218004">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="352" y="85" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1605372218004" />
     <state x="479" y="131" width="1024" height="852" key="#Project_Structure/72.27.1848.1053@72.27.1848.1053" timestamp="1603197859004" />
-    <state x="454" y="211" width="1084" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604508911526">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="331" y="150" width="939" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605374505806">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="331" y="150" width="939" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1605374505806" />
     <state x="454" y="211" width="1084" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1604508911526" />
-    <state x="728" y="371" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603201778586">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="761" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1605368747814">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="761" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1605368747814" />
+    <state x="568" y="281" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605374472730">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="568" y="281" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1605374472730" />
     <state x="728" y="371" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1603201778586" />
     <state x="699" y="223" width="583" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1604157174245">
       <screen x="72" y="27" width="1848" height="1053" />
@@ -142,25 +171,30 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="1096" y="127" width="714" height="853" key="DiffContextDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1604830240172" />
-    <state x="618" y="300" width="735" height="520" key="FileChooserDialogImpl" timestamp="1604831829958">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="473" y="223" width="735" height="520" key="FileChooserDialogImpl" timestamp="1605374479055">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="473" y="223" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1605374479055" />
     <state x="618" y="300" width="735" height="520" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1604831829958" />
-    <state width="1802" height="318" key="GridCell.Tab.0.bottom" timestamp="1604509287426">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1557" height="5" key="GridCell.Tab.0.bottom" timestamp="1605372558368">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="5" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605372558368" />
     <state width="1802" height="318" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1604509287426" />
-    <state width="1802" height="318" key="GridCell.Tab.0.center" timestamp="1604509287426">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1557" height="5" key="GridCell.Tab.0.center" timestamp="1605372558368">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="5" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605372558368" />
     <state width="1802" height="318" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1604509287426" />
-    <state width="1802" height="318" key="GridCell.Tab.0.left" timestamp="1604509287426">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1557" height="5" key="GridCell.Tab.0.left" timestamp="1605372558367">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="5" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605372558367" />
     <state width="1802" height="318" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1604509287426" />
-    <state width="1802" height="318" key="GridCell.Tab.0.right" timestamp="1604509287426">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1557" height="5" key="GridCell.Tab.0.right" timestamp="1605372558368">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="5" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605372558368" />
     <state width="1802" height="318" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1604509287426" />
     <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1603202628504">
       <screen x="72" y="27" width="1848" height="1053" />
@@ -202,6 +236,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="457" y="181" width="1372" height="803" key="new project wizard/72.27.1848.1053@72.27.1848.1053" timestamp="1604157074515" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1605368690217">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1605368690217" />
     <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1604506839699">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

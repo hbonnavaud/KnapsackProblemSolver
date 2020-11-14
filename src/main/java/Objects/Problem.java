@@ -27,8 +27,8 @@ public class Problem {
         this.itemsSize = 0;
     }
 
-    public Item getItem(int i){
-        return items.get(i);
+    public Item getItem(int index){
+        return items.get(index);
     }
 
     public void add(Item newObject) {

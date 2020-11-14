@@ -5,7 +5,7 @@ public class Item {
     private int value;
     private int weight;
 
-    private int ratio;
+    private double ratio;
 
     public Item(int id, int value, int weight) {
         this.id = id;
@@ -15,7 +15,7 @@ public class Item {
             this.ratio = -1;  // We consider -1 as infinite ...
         }
         else {
-            this.ratio = value/weight;
+            this.ratio = value/(double) weight;
         }
     }
 
@@ -40,7 +40,7 @@ public class Item {
         return weight;
     }
 
-    public int getRatio() {
+    public double getRatio() {
         return ratio;
     }
 }
