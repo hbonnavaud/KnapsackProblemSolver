@@ -1,3 +1,5 @@
+package Objects;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,7 +38,7 @@ public class Problem {
 
     @Override
     public String toString() {
-        String result = "[Problem " + this.name + "] N=" + this.itemsSize + ", W=" + this.bagCapacity + ", objects: [";
+        String result = "[Objects.Problem " + this.name + "] N=" + this.itemsSize + ", W=" + this.bagCapacity + ", objects: [";
         boolean first_object = false;
         for (Item item : this.items) {
             if (!first_object) first_object = true;

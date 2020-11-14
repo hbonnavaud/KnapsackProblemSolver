@@ -1,3 +1,5 @@
+package Objects;
+
 public class Item {
     private int id;
     private int value;
@@ -9,7 +11,12 @@ public class Item {
         this.id = id;
         this.value = value;
         this.weight = weight;
-        this.ratio = value/weight;
+        if (weight == 0) {
+            this.ratio = -1;  // We consider -1 as infinite ...
+        }
+        else {
+            this.ratio = value/weight;
+        }
     }
 
     @Override

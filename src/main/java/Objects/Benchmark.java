@@ -1,24 +1,31 @@
+package Objects;
+
 import java.util.ArrayList;
 
 public class Benchmark {
     private ArrayList<Problem> problems = new ArrayList<Problem>();
 
     public Benchmark() {
+
+        boolean run_easy_problem = true;
+        boolean run_medium_problem = false;
+        boolean run_hard_problem = false;
+        boolean run_insane_problem = false;
+
+        /**
+         * Manually instanciated problems
+         */
+
         /*
         createProblem(100, new int[][]{{0, 1}, {1, 1}, {2, 2}, {5, 5}, {10, 10}, {25, 25}, {50, 50}, {75, 75}, {25, 50}, {50, 25}});
         createProblem(30 , new int[][]{{7, 13}, {4, 12}, {3, 8}, {3, 10}});
         */
 
-        boolean run_easy_problem = true;
-        boolean run_medium_problem = true;
-        boolean run_hard_problem = false;
-        boolean run_insane_problem = false;
-
         /**
          * AUTO-GENERATED PROBLEMS
          *
          * On linux, execute:
-         *    cd src/main
+         *    cd src/src.main
          *    ./generate_problems
          */
         /**
@@ -93,7 +100,7 @@ public class Benchmark {
      */
     private void createProblem(int capacity, int[][] items) {
         int problemId = problems.size();
-        this.createProblem("Problem " + problemId, capacity, items);
+        this.createProblem("Objects.Problem " + problemId, capacity, items);
     }
 
     /**

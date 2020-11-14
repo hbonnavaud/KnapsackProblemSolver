@@ -17,7 +17,7 @@ max_weight = 30
 # Proportion de la capacité du sac par rapport à la somem des poids
 weight_ratio = 1/4
 
-def main():
+def src.main():
     for i in range(nb_problems):
         generateProblem()
 
@@ -47,4 +47,4 @@ def generateProblem():
     result += "});"
     print(result)
 
-main()
+src.main()
