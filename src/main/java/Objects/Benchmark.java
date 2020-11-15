@@ -7,9 +7,9 @@ public class Benchmark {
 
     public Benchmark() {
 
-        boolean run_easy_problem = true;
+        boolean run_easy_problem = false;
         boolean run_medium_problem = false;
-        boolean run_hard_problem = false;
+        boolean run_hard_problem = true;
         boolean run_insane_problem = false;
 
         /**

@@ -1,13 +1,16 @@
 package Solvers;
 
 import Objects.Problem;
+import org.chocosolver.solver.ICause;
 import org.chocosolver.solver.Model;
 import org.chocosolver.solver.Solver;
+import org.chocosolver.solver.learn.ExplanationForSignedClause;
 import org.chocosolver.solver.search.strategy.selectors.values.IntDomainMin;
 import org.chocosolver.solver.search.strategy.selectors.variables.MaxRegret;
 import org.chocosolver.solver.variables.IntVar;
 
 import java.util.Arrays;
+import java.util.function.Consumer;
 
 import static org.chocosolver.solver.search.strategy.Search.intVarSearch;
 
@@ -27,8 +30,8 @@ public class BackPackSolver {
     private int solutionTotalBagWeight;
 
     // Resolution pipeline
-    private boolean searchMethodSet = false;
-    private boolean problemSolved = false;
+    protected boolean searchMethodSet = false;
+    protected boolean problemSolved = false;
 
     public BackPackSolver(Problem problem) {
         this.problem = problem;

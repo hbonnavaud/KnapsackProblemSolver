@@ -15,11 +15,12 @@ public class main {
          */
 
         Benchmark benckmark = new Benchmark();
+        /*
         for (Problem problem: benckmark.getProblems()) {
             BackPackSolver backPackSolver = new BackPackSolver(problem);
             backPackSolver.solve();
             System.out.println(backPackSolver.getStringResult(false, true));
-        }
+        }*/
         for (Problem problem: benckmark.getProblems()) {
             RatioHeuristicSolver ratioHeuristicSolver = new RatioHeuristicSolver(problem);
             ratioHeuristicSolver.solve();

@@ -26,9 +26,9 @@ public class RatioHeuristicSolver extends BackPackSolver{
                     // Before to select an item to take in our bag, we need to know it there is enough place for it.
                     // Let calculate the bag current size
                     int totalWeight = 0;
-                    for (int index = 0; index < variables.length; index ++) {
-                        if (variables[index].isInstantiated()) {
-                            totalWeight += variables[index].getValue() * problem.getItem(index).getWeight();
+                    for (int index = 0; index < this.vars.length; index ++) {
+                        if (this.vars[index].isInstantiated()) {
+                            totalWeight += this.vars[index].getValue() * problem.getItem(index).getWeight();
                         }
                     }
 
@@ -36,9 +36,9 @@ public class RatioHeuristicSolver extends BackPackSolver{
                     // in every unset variables
                     Double bestRatioFound = null;
                     Integer bestItemIndex = null;
-                    for (int index = 0; index < variables.length; index ++) {
+                    for (int index = 0; index < this.vars.length; index ++) {
                         double itemRatio = problem.getItem(index).getRatio();
-                        if (!variables[index].isInstantiated()
+                        if (!this.vars[index].isInstantiated()
                                 && (bestRatioFound == null || bestRatioFound < itemRatio)
                                 && totalWeight + problem.getItem(index).getWeight() < problem.getBagCapacity()) {
                             bestRatioFound = itemRatio;
@@ -49,7 +49,7 @@ public class RatioHeuristicSolver extends BackPackSolver{
                     // Now we found our variable index, we can return it.
                     if (bestItemIndex == null) {
                         return null;
-                    } else return variables[bestItemIndex];
+                    } else return this.vars[bestItemIndex];
                 },
 
                 // value selector
@@ -58,5 +58,6 @@ public class RatioHeuristicSolver extends BackPackSolver{
                 // variables to branch on
                 vars
         ));
+        this.searchMethodSet = true;
     }
 }
